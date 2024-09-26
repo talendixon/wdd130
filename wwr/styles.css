@@ -8,15 +8,19 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+}
+
+.banner {
+    background-color: #800080; /* Purple background */
+    color: white; /* White text */
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0; /* Remove default margins for headings */
 }
 
 h1 {
-    font-family: 'Times New Roman', serif;
-    color: #A43312; /* Accent color for heading */
-}
-
-h2 {
     font-family: 'Times New Roman', serif;
 }
 
