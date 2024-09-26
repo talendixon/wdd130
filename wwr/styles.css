@@ -11,13 +11,9 @@ header {
     margin-bottom: 20px;
 }
 
-.logo {
-    max-width: 100px;
-}
-
 h1 {
     font-family: 'Times New Roman', serif;
-    color: #ff4500; /* Orange color for heading */
+    color: #A43312; /* Accent color for heading */
 }
 
 h2 {
@@ -25,29 +21,39 @@ h2 {
 }
 
 nav {
-    background-color: #1e90ff; /* Blue background for navigation */
+    background-color: #396E94; /* Primary color for navigation */
     padding: 10px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-}
-
 nav a {
-    color: white; /* White color for links */
+    color: white; /* Color for links */
     text-decoration: none;
+    margin: 0 15px;
 }
 
 nav a:hover {
-    color: #ff4500; /* Change link color to orange on hover */
+    color: #E7C24F; /* Secondary color on hover */
 }
 
-section {
-    margin-bottom: 20px;
+table.colors {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.colors th, table.colors td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table.colors .primary {
+    background-color: #396E94; /* Primary color */
+}
+
+table.colors .secondary {
+    background-color: #E7C24F; /* Secondary color */
+}
+
+table.colors .accent1 {
+    background-color: #A43312; /* Accent color 1 */
 }
