@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: center; /* Centering the header content */
 }
 
 .banner {
@@ -27,12 +27,13 @@ h1 {
 nav {
     background-color: #396E94; /* Primary color for navigation */
     padding: 10px;
+    text-align: center; /* Centering the navigation links */
 }
 
 nav a {
     color: white; /* Color for links */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 15px; /* Spacing between links */
 }
 
 nav a:hover {
