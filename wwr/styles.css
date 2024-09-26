@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark gray text */
     margin: 0;
     padding: 20px;
 }
@@ -17,7 +17,7 @@ header {
 
 h1 {
     font-family: 'Times New Roman', serif;
-    color: white; /* Change heading color */
+    color: #ff4500; /* Orange color for heading */
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
 }
 
 nav {
-    background-color: black; /* Background color for navigation */
+    background-color: #1e90ff; /* Blue background for navigation */
     padding: 10px;
 }
 
@@ -40,12 +40,12 @@ nav li {
 }
 
 nav a {
-    color: white; /* Color for links */
+    color: white; /* White color for links */
     text-decoration: none;
 }
 
 nav a:hover {
-    color: purple; /* Color for links on hover */
+    color: #ff4500; /* Change link color to orange on hover */
 }
 
 section {
