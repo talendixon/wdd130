@@ -1,23 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Light blue background */
-    color: #333; /* Dark gray text */
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
 }
 
 header {
-    text-align: center; /* Centering the header content */
-}
-
-.banner {
-    background-color: #800080; /* Purple background */
-    color: white; /* White text */
+    text-align: center;
     padding: 20px;
+    background-color: #0073e6; /* Example primary color */
+    color: white; /* Font color */
 }
 
-h1, h2 {
-    margin: 0; /* Remove default margins for headings */
+.logo {
+    width: 100px; /* Adjust size of your logo */
 }
 
 h1 {
@@ -25,40 +21,53 @@ h1 {
 }
 
 nav {
-    background-color: #396E94; /* Primary color for navigation */
-    padding: 10px;
-    text-align: center; /* Centering the navigation links */
+    background-color: #005bb5; /* Example navigation background color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
 nav a {
     color: white; /* Color for links */
     text-decoration: none;
-    margin: 0 15px; /* Spacing between links */
 }
 
-nav a:hover {
-    color: #E7C24F; /* Secondary color on hover */
+.color-sample {
+    width: 100px;
+    height: 50px;
+    margin: 10px 0;
+    color: white; /* Font color for color samples */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-table.colors {
-    width: 100%;
-    border-collapse: collapse;
+.primary {
+    background-color: #0073e6; /* Example primary color */
 }
 
-table.colors th, table.colors td {
-    border: 1px solid #ccc;
-    padding: 10px;
+.secondary {
+    background-color: #ffcc00; /* Example secondary color */
+}
+
+.accent {
+    background-color: #ff5733; /* Example accent color */
+}
+
+h3 {
+    font-family: 'Times New Roman', serif;
+}
+
+footer {
     text-align: center;
-}
-
-table.colors .primary {
-    background-color: #396E94; /* Primary color */
-}
-
-table.colors .secondary {
-    background-color: #E7C24F; /* Secondary color */
-}
-
-table.colors .accent1 {
-    background-color: #A43312; /* Accent color 1 */
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
