@@ -8,7 +8,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #0073e6; /* Example primary color */
+    background-color: #4a90e2; /* Primary color */
     color: white; /* Font color */
 }
 
@@ -17,11 +17,11 @@ header {
 }
 
 h1 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Georgia', serif; /* Heading font */
 }
 
 nav {
-    background-color: #005bb5; /* Example navigation background color */
+    background-color: #357ab8; /* Navigation background color */
 }
 
 nav ul {
@@ -50,19 +50,19 @@ nav a {
 }
 
 .primary {
-    background-color: #0073e6; /* Example primary color */
+    background-color: #4a90e2; /* Primary color */
 }
 
 .secondary {
-    background-color: #ffcc00; /* Example secondary color */
+    background-color: #f5a623; /* Secondary color */
 }
 
 .accent {
-    background-color: #ff5733; /* Example accent color */
+    background-color: #d0021b; /* Accent color */
 }
 
 h3 {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Georgia', serif; /* Heading font */
 }
 
 footer {
