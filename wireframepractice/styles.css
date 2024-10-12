@@ -1,0 +1,96 @@
+html, body {
+    height: 100%; /* Ensure body takes full height */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+#content {
+    max-width: 1600px; /* Limit the width */
+    margin: 0 auto; /* Center content */
+    padding: 20px; /* Inner padding */
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 80px; /* Set logo height */
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+.hero {
+    background: #e0e0e0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 200px; /* Fixed card width */
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Set height */
+    object-fit: cover; /* Ensure it fills the space */
+    border-radius: 5px; /* Match the card's border radius */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+main {
+    text-align: center; /* Center text in main */
+}
+
+.footer {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em; /* Larger footer text */
+}
+
+footer a {
+    color: white; /* Footer link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    color: #FFD700; /* Change footer link color on hover */
+}
