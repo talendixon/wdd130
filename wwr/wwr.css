@@ -42,8 +42,8 @@ body {
     text-align: center;
     background-color: #111;
     color: #fff;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent overflow */
 }
 
 .hero-text {
@@ -95,7 +95,7 @@ body {
 
 .images img {
     width: 20%; /* Each image takes 20% of the width */
-    height: 100vh; /* Ensure each image covers the full height */
+    max-height: 100vh; /* Set max height to 100% of viewport height */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
@@ -241,7 +241,12 @@ footer a {
     }
 
     .images img {
-        height: 50vh; /* Adjust image height for mobile */
+        height: auto; /* Allow height to adjust automatically */
+        max-height: 50vh; /* Set max height for mobile screens */
+    }
+
+    .hero {
+        height: auto; /* Adjust hero section height on mobile */
     }
 
     .about {
@@ -253,11 +258,11 @@ footer a {
         margin-left: 0; /* Remove left margin */
         margin-top: 1rem; /* Add top margin for spacing */
     }
-    
+
     .service img {
         width: 100px; /* Smaller service images */
     }
-    
+
     .logo img {
         width: 100px; /* Smaller logo size on mobile */
     }
