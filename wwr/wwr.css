@@ -142,6 +142,7 @@ body {
 .arrow:hover {
     color: #ffc107;
 }
+
 /* Services Section with Grid Layout */
 .services {
     display: grid;
@@ -224,21 +225,40 @@ footer a {
     width: 24px;
     margin: 0 5px;
 }
-.logo img {
-    width: 50px;
-    height: auto;
-}
-.service img {
-    width: 100px; 
-    height: auto; 
-    border-radius: 10px;
-    object-fit: cover;
-}
-.services {
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 1.5rem; 
-    padding: 2rem; 
-    background-color: #f7f7f7; 
-    text-align: center; 
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .hero-text p {
+        font-size: 1rem; /* Smaller paragraph size for mobile */
+    }
+
+    .book-btn {
+        padding: 0.5rem 1rem; /* Adjust button size */
+    }
+
+    .images img {
+        height: 50vh; /* Adjust image height for mobile */
+    }
+
+    .about {
+        flex-direction: column; /* Stack about section vertically */
+        text-align: center; /* Center align text */
+    }
+
+    .about-text {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 1rem; /* Add top margin for spacing */
+    }
+    
+    .service img {
+        width: 100px; /* Smaller service images */
+    }
+    
+    .logo img {
+        width: 100px; /* Smaller logo size on mobile */
+    }
 }
