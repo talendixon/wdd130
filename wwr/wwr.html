@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dry Oar Adventures</title>
-    <link rel="stylesheet" href="wwr.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>River Rush</title>
+  <link rel="stylesheet" href="wwr.css">
 </head>
 <body>
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="logo.png" alt="River Rush Logo">
+    </div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Site Plan</a>
+      <a href="#">About Us</a>
+    </nav>
+  </header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="logo">Dry Oar</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Page 2</a>
-            <a href="#">Site Plan</a>
-            <a href="#">Contact Us</a>
-        </nav>
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+        <h1>River Rush Adventures</h1>
+        <p>Embrace the thrill, capture memories</p>
+        <a href="#" class="book-btn">Book Now</a>
+    </div>
+    <div class="image-scroller">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <input type="radio" name="slide" id="slide4">
+        <input type="radio" name="slide" id="slide5">
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Have An Adventure</h1>
-        <p>Make Memories with Dry Oar</p>
-        <button onclick="window.location.href='#'">Book Now</button>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services">
-        <div class="service">
-            <img src="river.jpg" alt="River">
-            <h3>Rivers</h3>
+        <div class="images">
+            <img src="wwr.png" alt="Rafting Adventure">
+            <img src="wwr2.png" alt="Camping Site">
+            <img src="wwr3.png" alt="Rapid Waters">
+            <img src="wwr4.png" alt="Scenic Views">
+            <img src="wwr5.png" alt="Group Fun">
         </div>
-        <div class="service">
-            <img src="camping.jpg" alt="Camping">
-            <h3>Camping</h3>
+        
+        <!-- Navigation Arrows -->
+        <div class="arrows">
+            <label for="slide1" class="arrow arrow-left">&#10094;</label>
+            <label for="slide2" class="arrow arrow-right">&#10095;</label>
         </div>
-        <div class="service">
-            <img src="rapids.jpg" alt="Rapids">
-            <h3>Rapids</h3>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section class="about">
-        <img src="mountains.jpg" alt="Mountains">
-        <div class="about-text">
-            <h2>More Than Just The Thrill</h2>
-            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
-            <button onclick="window.location.href='#'">Join Us</button>
-        </div>
-    </section>
+  <!-- Services Section with Grid Layout -->
+  <section class="services">
+    <div class="service">
+      <img src="river.png" alt="Rivers">
+      <h3>Rivers</h3>
+    </div>
+    <div class="service">
+      <img src="camp.png" alt="Camping">
+      <h3>Camping</h3>
+    </div>
+    <div class="service">
+      <img src="oars.png" alt="Rapids">
+      <h3>Rapids</h3>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>Dry Oar © 20XX - Your First and Last Name Here</p>
-        <nav>
-            <a href="#">Site Plan</a>
-            <a href="#">Contact Us</a>
-        </nav>
-        <div class="social-media">
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-        </div>
-    </footer>
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-image">
+      <img src="mountains.png" alt="Mountain View">
+    </div>
+    <div class="about-text">
+      <h2>More Than Just The Thrill</h2>
+      <p>Experience breathtaking scenery, from valleys to mountain peaks. Get away and relax in the great outdoors.</p>
+      <a href="#" class="join-btn">Join Us</a>
+    </div>
+  </section>
 
+  <!-- Footer Section -->
+  <footer>
+    <p>River Rush © 2024 - All Rights Reserved</p>
+    <a href="#">Site Map</a>
+    <a href="#">Contact Us</a>
+    <div class="social-icons">
+      <a href="#"><img src="R.png" alt="Facebook"></a>
+      <a href="#"><img src="x.png" alt="Twitter"></a>
+      <a href="#"><img src="insta.png" alt="Instagram"></a>
+    </div>
+  </footer>
 </body>
 </html>
