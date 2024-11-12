@@ -8,6 +8,10 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 /* Header with Logo and Navigation Links */
@@ -266,4 +270,21 @@ footer a {
     .logo img {
         width: 100px; /* Smaller logo size on mobile */
     }
+}
+
+.styled-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
 }
