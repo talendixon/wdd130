@@ -1,0 +1,76 @@
+/* General body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card container */
+  .card {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Content section styling */
+  .card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-content .date {
+    color: #6b7280;
+    font-size: 0.8rem;
+    margin: 0 0 8px;
+  }
+  
+  .card-content h2 {
+    font-size: 1.5rem;
+    margin: 8px 0;
+    color: #000000;
+  }
+  
+  .card-content .description {
+    font-size: 0.9rem;
+    color: #666666;
+    line-height: 1.4;
+  }
+  
+  /* Footer section with grid layout */
+  .card-meta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #1e3a8a;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.9rem;
+  }
+  
+  .card-meta div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-meta div span {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  
+  .card-meta div sup {
+    font-size: 0.6rem;
+  }
+  
