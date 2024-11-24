@@ -1,0 +1,13 @@
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.moveDown {
+    margin-top: 3em;
+}
+/* Add any additional styles for your form here */
